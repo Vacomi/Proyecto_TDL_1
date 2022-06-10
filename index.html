@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto TODO_LIST usando una imagen de icono</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+
+    <!-- BLOQUE HEADER -->
+    <header class="header">
+        <img src="img/chuleta.png" alt="Logo" class="header__logo">
+        <h1 class="header__title">Chuleta Gamer: "Haz tu tarea de una puta vez!"</h1>
+    </header>
+
+    <!-- BLOQUE FORM -->
+    <form class="form" id="form" action="#">
+        <input type="text" class="form__input" id="form__input" placeholder="Ingresa tu tarea aquí..." autofocus>
+        <input type="submit" class="form__button" id="form__button" value="+">
+    </form>
+
+    <!-- BLOQUE TASK-LIST -->
+    <div class="task-list" id="task-list">
+        <!-- <div class="task-list__task-container" id="1">
+            <label for="" class=task-list__task-info>
+                <input type="checkbox">
+                Tarea 1
+            </label>
+            <img src="img/trash-bin.png" class="task-list__delete-button">
+        </div> -->
+    </div>
+
+    <!-- BLOQUE ESTADISTICAS -->
+    <div class="estados" id="stats">
+        <!-- Tareas pendientes: 5 Completadas: 3. -->
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

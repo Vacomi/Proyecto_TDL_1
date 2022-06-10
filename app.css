@@ -1,0 +1,97 @@
+:root {
+    --orange: #d95550;
+    --lightOrange: #dd6662;
+    --verylightOrange: #f89e8b;
+    --gray: #55557B;
+}
+/* GLOBALES */
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: var(--orange);
+}
+
+
+/* bloque header */
+.header__logo {
+    width: 200px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.header__title {
+    margin-top: 220px;
+    color: white;
+    text-align: center;
+}
+
+/* Bloque form */
+.form {
+    border: 3px solid white;
+    border-radius: 5px;
+    width: 400px;
+    margin: 45px auto;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+.form__input {
+    flex: 1;
+    background-color: var(--orange);
+    color: white;
+    border-style: none;
+    outline: none;
+    font-size: 1.5rem;
+}
+.form__input::placeholder {
+    color: orange;
+}
+.form__button {
+    background-color: white;
+    border: none;
+    width: 30px;
+    height: 30px;
+    font-size: 2em;
+    font-weight: bold;
+    line-height: 0;
+    border-radius: 50%;
+    color: var(--orange);
+}
+
+/* Bloque list */
+.task-list {
+    width: 400px;
+    margin: 0 auto;
+}
+
+.task-list__task-container {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 6px;
+    padding: 10px;
+    border-radius: 3px;
+    font-weight: bold;
+    color: var(--gray);
+}
+.task-list__task-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.task-list__delete-button {
+    width: 30px;
+    height: 30px;
+}
+.task-list__delete-button:hover {
+    cursor: pointer;
+}
+
+/* Bloque Estadisticas */
+.estados {
+    margin-top: 25px;
+    font-size: 13px;
+    color: var(--verylightOrange);
+    text-align: center;
+    font-weight: bold;
+}
